@@ -28,6 +28,7 @@ public class GoodServlet extends HttpServlet {
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		//判断action类型
+		
 		String action=request.getParameter("action");
 		String path=null;
 		Vector<Goods> gVector=new Vector<Goods>();
