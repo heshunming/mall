@@ -54,7 +54,7 @@ public class EncodeFilter implements Filter {
 		if(encoding==null||"".equals(encoding)){
 			encoding="UTF-8";
 		}
-		log.debug("获得编码值");
+		log.info("Filter过滤器初始化");
 	}
 	
 	public void destroy() {

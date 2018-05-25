@@ -7,7 +7,7 @@
 
 	<body>
 		<div>
-			<a id="img-link" href="index.jsp"> <img src="image/logo.jpg" border="0"/> </a>
+			<a id="img-link" href="index.jsp"> <img src="image/华为.png" border="0"/> </a>
 		</div>
 		<br>
 		<div
