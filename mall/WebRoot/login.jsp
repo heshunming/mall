@@ -3,64 +3,43 @@
 <html>
 	<head>
 		<title>淘淘网—开心淘！</title>
-		<jsp:include page="common/common.jsp"/>
+		<jsp:include page="common/common.jsp"/>		
 		<script type="text/javascript" src="js/common/login.js"></script>
+		<style type="text/css">
+			
+		</style>
 	</head>
 
-	<body>
+	<body  style="background:url('image/背景图片.png') center center no-repeat;background-size:cover;">
+	<p>	<a href="index.jsp"><img id="icon" src="image/logo1.jpg"/></a></p>		
 		<div align="center">
-			<div id="top">
-				<jsp:include page="head.jsp"></jsp:include>
-			</div>
-			<p>
-			<div>
-				<a id="img-link" href="index.jsp"> <img src="image/logo.jpg" border="0"/> </a>
-			</div>
 			<br>
 			<br>
 			<div style="width: 80%; height: 60%">
-				<img src="image/loginlogo.jpg" align="left"
-					style="padding-left: 25%" border="0"/>
+				<!-- <img src="image/loginlogo.jpg" align="left"
+					style="padding-left: 25%" border="0"/> -->
 				<br><br><br><br><br>
 				<div id="loginbg" align="center">
-					<div align="center">
-						<form action="login" method="post" id="login">
-							<table width="100%">
-								<tr>
-									<td colspan="2">
-										<font color="red" size="5">${status}</font>
-									</td>
-								</tr>
-								<tr>
-									<th width="20%">
-										用户名：
-									</th>
-									<td width="70%">
-										<input type="text" name="uname" value="${uname}"
-											maxlength="50" minlength="3">
-									</td>
-								</tr>
-								<tr></tr>
-								<tr>
-									<th width="20%">
-										密&nbsp;&nbsp;码：
-									</th>
-									<td width="70%">
-										<input type="password" name="passwd" maxlength="50"
-											minlength="3">
-									</td>
-								</tr>
-								<tr>
-									<td colspan="2" align="center">
-										<br>
-										<input type="hidden" name="action" value="login">
-										<input class="submit" type="submit" value="登&nbsp;&nbsp;陆">
-										&nbsp;&nbsp;
-										<a href="register.jsp">免费注册</a>
-									</td>
-								</tr>
-							</table>
-						</form>
+					<img id="icon" src="image/小图标.jpg"/>
+					<div class="login" align="center">
+					
+					 	<form method="post" action="login" id="login">  
+					 	
+					 	<p><label class="label_input">用户名</label><input type="text" name="uname" value="${uname}" class="text_field"/></p> 
+					 	<p><label class="label_input">密&nbsp;&nbsp;&nbsp;&nbsp;码</label> <input type="password" name="passwd"  class="text_field" maxlength="50"  minlength="3"></p>
+					 	
+					 	<br>
+					 	<div id="login_control">  
+					 			<input type="hidden" name="action" value="login">		
+					            <input type="submit"  id="btn_login" value="登&nbsp;&nbsp;录" />  					           
+					            <a href="register.jsp"><input type="button" id="btn_register" value="注&nbsp;&nbsp;册" /> </a>
+					            <a id="forget_pwd" href="forget_pwd.html">忘记密码？</a>  
+					     </div>  
+					 	
+					<br>					       
+				           		           
+					  </form>				    
+					
 					</div>
 				</div>
 			</div>

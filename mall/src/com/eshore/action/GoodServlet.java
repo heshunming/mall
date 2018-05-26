@@ -51,6 +51,7 @@ public class GoodServlet extends HttpServlet {
 				request.setAttribute("good", good);
 				path="goods/good.jsp";
 			}
+			
 		}catch(Exception e){
 			e.printStackTrace();
 		}
