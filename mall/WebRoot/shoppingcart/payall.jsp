@@ -41,6 +41,24 @@
 														<option value="0" selected="selected">
 															-选择省-
 														</option>
+														<option value="1" selected="selected">
+															湖南省
+														</option>
+														<option value="2" selected="selected">
+															广东省
+														</option>
+														<option value="3" selected="selected">
+															江西省
+														</option>
+														<option value="4" selected="selected">
+															北京市
+														</option>
+														<option value="5" selected="selected">
+															上海市
+														</option>
+														<option value="6" selected="selected">
+															江苏省
+														</option>
 													</select>
 													<select id="city" name="city">
 														<option value="0" selected="selected">

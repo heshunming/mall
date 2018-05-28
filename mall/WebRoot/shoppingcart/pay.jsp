@@ -5,7 +5,7 @@
 	<head>
 		<title>淘淘网—开心淘！</title>
 		<jsp:include page="../common/common.jsp"/>
-		<script type="text/javascript" src="js/shopcart/pay.js"></script>
+		<script type="text/javascript" src="js/shopcart/pay.js" charset="UTF-8"></script>
 	</head>
 
 	<body>
@@ -67,9 +67,27 @@
 													地区：
 												</th>
 												<td>
-													<select id="province" name="province">
+													<select id="province" name="province" onchange="placechoose()">
 														<option value="0" selected="selected">
 															-选择省-
+														</option>
+														<option value="1" selected="selected">
+															湖南省
+														</option>
+														<option value="2" selected="selected">
+															广东省
+														</option>
+														<option value="3" selected="selected">
+															江西省
+														</option>
+														<option value="4" selected="selected">
+															北京市
+														</option>
+														<option value="5" selected="selected">
+															上海市
+														</option>
+														<option value="6" selected="selected">
+															江苏省
 														</option>
 													</select>
 													<select id="city" name="city">
