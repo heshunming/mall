@@ -31,7 +31,7 @@
 								<br/>
 							<td>
 							<td>
-								<a  href="goods?keyWord=cellphone&keyClass=2&action=index-select">品牌手机</a>
+								<a href="goods?keyWord=cellphone&keyClass=2&action=index-select">品牌手机</a>
 								<br>
 								<a href="goods?keyWord=nokia&keyClass=4&action=index-select">诺基亚</a>|
 								<a href="goods?keyWord=iphone&keyClass=4&action=index-select">iphone</a>|

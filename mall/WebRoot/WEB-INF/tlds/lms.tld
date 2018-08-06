@@ -7,14 +7,14 @@
 	<short-name>lms</short-name>
 	<uri>/lms-tags</uri>
 	<tag>
-		<name>page</name>
-		<tag-class>com.eshore.tag.PageTag</tag-class>
+		<name>page</name>	
+		<tag-class>com.eshore.tag.PageTag</tag-class><!-- 标签指定类 -->
 		<body-content>JSP</body-content>
 		<description>分页</description>
 		<attribute>
 			<name>object</name>
-			<required>true</required>
-			<rtexprvalue>true</rtexprvalue>
+			<required>true</required><!-- 表名该属性是否是必须的 -->
+			<rtexprvalue>true</rtexprvalue><!-- 指定该属性值是否可以在运行时通过一个script表达式进行动态计算 -->
 			<type>com.eshore.tag.PageObject</type>
 			<description>PageObject对象</description>
 		</attribute>

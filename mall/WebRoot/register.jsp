@@ -5,10 +5,7 @@
 		<title>注册用户</title>
 		<jsp:include page="common/common.jsp"/>
 		<script type="text/javascript" src="js/common/register.js"></script>
-		<style type="text/css">
-		
-		
-		
+		<style type="text/css">		
 	#registerbg {
 		width: 400px;  
 	    height: 260px;  
@@ -20,13 +17,10 @@
 	    margin-left: -200px;  
 	    margin-top: -200px;  
 	  
-	    background-color: rgba(240, 255, 255, 0.5);  
-	  
-	    border-radius: 10px; 
-	     
+	    background-color: rgba(240, 255, 255, 0.5);  	  
+	    border-radius: 10px; 	     
 	    text-align: center;  
-		}
-		
+		}		
 		.register_input {  
 	    font-size: 14px;  
 	    font-family: 宋体;  
@@ -115,23 +109,15 @@
 	#login_control {  
 	    padding: 0 28px;  
 	}   */
-		
-		
-		
-		
-		
-		</style>
-
+	</style>
 	</head>
-
 	<body  style="background:url('image/背景图1.jpg') center center no-repeat;background-size:cover;">
 		<div align="center">
 			<div id="top">
 				<jsp:include page="head.jsp"/>
 			</div>
 			<p>
-			<div>
-				
+			<div>				
 			</div>
 			<br>
 			<br>
@@ -182,8 +168,7 @@
 								<span>*</span>
 								<input type="text" name="email" class="email" maxlength="50"
 								minlength="7">
-							</label>
-							
+							</label>							
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 							<div style="padding-right:center">

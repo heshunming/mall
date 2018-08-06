@@ -9,8 +9,8 @@
 		<div align="center">
 		<hr>
 			<font size="2" color="black">
-			<linl:copyright startY="2018" user="heshunming"/>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="swarding99@163.com">联系我们</a> </font>
+			<linl:copyright startY="2016" user="heshunming"/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="heshunming@outlook.com">联系我们</a> </font>
 		</div>
 	</body>
 </html>

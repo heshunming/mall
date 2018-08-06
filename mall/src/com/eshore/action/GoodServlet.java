@@ -50,8 +50,7 @@ public class GoodServlet extends HttpServlet {
 					good =(Goods)gVector.get(0); 
 				request.setAttribute("good", good);
 				path="goods/good.jsp";
-			}
-			
+			}			
 		}catch(Exception e){
 			e.printStackTrace();
 		}

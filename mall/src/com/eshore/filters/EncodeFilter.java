@@ -57,8 +57,7 @@ public class EncodeFilter implements Filter {
 		log.info("Filter过滤器初始化");
 	}
 	
-	public void destroy() {
-		// TODO Auto-generated method stub
+	public void destroy() {	
 		log.debug("请求销毁");
 	}
 }

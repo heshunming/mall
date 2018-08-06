@@ -34,9 +34,8 @@
 					            <input type="submit"  id="btn_login" value="登&nbsp;&nbsp;录" />  					           
 					            <a href="register.jsp"><input type="button" id="btn_register" value="注&nbsp;&nbsp;册" /> </a>
 					            <a id="forget_pwd" href="forget_pwd.html">忘记密码？</a>  
-					     </div>  
-					 	
-					<br>					       
+					     </div>  					 	
+					<br>       
 				           		           
 					  </form>				    
 					
